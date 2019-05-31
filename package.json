@@ -1,26 +1,20 @@
 {
-  "name": "webdb-iv-challenge",
+  "name": "recipe_book",
   "version": "1.0.0",
-  "description": "- database modeling.\r - migration scripts.\r - seeding.\r - knex.",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/x-zen/webdb-iv-challenge.git"
+    "server": "nodemon"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/x-zen/webdb-iv-challenge/issues"
-  },
-  "homepage": "https://github.com/x-zen/webdb-iv-challenge#readme",
   "dependencies": {
     "express": "^4.16.4",
-    "knex": "^0.17.0",
-    "nodemon": "^1.19.1",
-    "sqlite3": "^4.0.8"
+    "knex": "^0.15.2",
+    "sqlite3": "^4.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
   }
 }
